@@ -146,7 +146,7 @@ strip blocknotify
 
 Example: Add the following to `bcrm.conf`
 ```
-blocknotify=/home/user/bcrm-pool/scripts/blocknotify bcrm %s
+blocknotify=/home/user/bcrm-pool/scripts/blocknotify 127.0.0.1:17117 bcrm %s
 ```
 4. Set blockRefreshInterval to 0 in config.json to disable RPC polling
 
