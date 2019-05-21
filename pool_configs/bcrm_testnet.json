@@ -1,0 +1,88 @@
+{
+    "enabled": false,
+    "coin": "bcrm_testnet.json",
+    "testnet": true,
+    
+    "address": "XYkDE5MQofmhZzgsCDTzuEDMvrTMCVhjzg",
+    "_comment_address": "a transparent address to send coinbase rewards to and to transfer to zAddress.",
+    
+    "zAddress": "",
+    "_comment_zAddress": "Not used",
+    
+    "tAddress": "XK5v4zxLsCC8UQYVfARDMouDJo6D3cvNy7",
+    "_comment_tAddress": "transparent address used to send payments, make this a different address, otherwise payments will not send",
+
+    "invalidAddress": "XKDezVSB6px8eijP3e771n3cu5LCxgNn83",
+    
+    "walletInterval": 5,
+    
+//    "rewardRecipients": {
+//        "XWyNV9PCpfMnrDeCB3gqnUskdNbxmeip72": 1.0
+//    },
+    
+    "tlsOptions": {
+        "enabled": false,
+        "serverKey":"",
+        "serverCert":"",
+        "ca":""
+    },
+    
+    "paymentProcessing": {
+        "minConf": 10,
+        "enabled": true,
+        "paymentMode": "prop",
+        "_comment_paymentMode":"prop, pplnt",
+        "paymentInterval": 200,
+        "_comment_paymentInterval": "Interval in seconds to check and perform payments.",
+        "minimumPayment": 0.1,
+        "maxBlocksPerPayment": 10,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 3095,
+            "user": "user",
+            "password": "password"
+        }
+    },
+    
+    "ports": {
+        "3000": {
+            "tls":false,
+            "diff": 0.05,
+            "varDiff": {
+                "minDiff": 0.04,
+                "maxDiff": 16,
+                "targetTime": 15,
+                "retargetTime": 60,
+                "variancePercent": 30
+            }
+        }
+    },
+    
+    "daemons": [
+                {
+                "host": "127.0.0.1",
+                "port": 3095,
+                "user": "user",
+                "password": "password"
+                }
+                ],
+    
+    "p2p": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3094,
+        "disableTransactions": true
+    },
+    
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "user",
+        "password": "password",
+        "database": "kmd",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    }
+    
+}

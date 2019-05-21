@@ -1,0 +1,33 @@
+{
+    "name": "Test BCRM",
+    "symbol": "TEST",
+    "peerMagic": "4344534e",
+    "algorithm": "equihash",
+    "txfee": 0.000005,
+    "payFoundersReward": true,
+    "percentTreasuryReward": 5.0,
+    "treasuryRewardStartBlockHeight": 21,
+    "treasuryRewardAddressChangeInterval": 1,
+    "vTreasuryRewardAddress": [
+            "XLwmCpLHeZDuAThp3xgGvYwDs5a91bfTzv",
+            "XCX1Ck4jXpsKJLARQS8FvD925cahpHizKQ",
+            "XUbw1uYqQybYeFBDoqyZC5ejyxw5yjbbh3",
+            "XLKzLkqQjKD5YX1CgEWssSRDN4vKkTeUGc",
+            "XEGXopbSAEPks38MYBxrERznBCXKZitVeE",
+            "XXfPLKmFNaetqpTDhTsvmGanagDQSYDuj3",
+            "XFcEEjgAjfUVBWr37i16VvmDHvWYZCN5rC",
+            "XMYJhQ6rcuf2ZpRf7tdUtS2niWXEoEELjg",
+            "XFhZXEjaNHRN28RHbh9N2GJ2CCnYG7pco3",
+            "XE25T1V24ibj2yHBsTdVks2WfZNwL2oWMT",
+            "XC1tXLjrK48VWSqJWE1KoTJYFZ8sPH4qJf",
+            "XUeVZTtHTVz1skU1jswDEXXssDYUx68gSN",
+            "XNpX1q6xG6c5HzpGYXAoam6iPD6a2mjuNF",
+            "XWpCrur2T4KeWHHH99wqyHa1or3Mv7ha4C",
+            "XJXj7iGwk77WoWrLp92UQJHYBCMc6r8C71",
+            "XC4MTG8voF3AiLsKkgkVH631U2dpoFq4Yh",
+            "XLRMPT2QUyW8y7ZazsY6Fxm5XqziYpSzUt",
+            "XVfTfq3w9d9FpR4utAbsRK1KnSYwcc5zWm",
+            "XEvfGaPixdNGmcMw5ETabVr865XRFQcwPK",
+            "XFh1Hz7omQfGRh7kazdhSPBGGXGrXaZHdc"
+    ]
+}
